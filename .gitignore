@@ -1,0 +1,31 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Test and tooling caches
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Output produced by running the tool
+backup_tool.log
+backup_tool.log.*
+backup_tool_test_run.log
+*_report.txt
+
+# Editors and OS clutter
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
